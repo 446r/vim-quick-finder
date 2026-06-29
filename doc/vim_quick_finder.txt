@@ -1,0 +1,11 @@
+*qf_finder.txt*   曖昧検索機能付きクイックフィックスファインダー
+
+概要                                                    *qf_finder-introduction*
+本プラグインは、指定したディレクトリ以下のファイルを曖昧検索し、
+クイックフィックスリストに抽出します。
+
+コマンド                                                 *qf_finder-commands*
+:Qf [{keyword}] [{base_dir}]
+    {base_dir} 内のファイルを検索します（デフォルトは '.'）。
+    {keyword} が指定されている場合は曖昧検索を行います。
+
